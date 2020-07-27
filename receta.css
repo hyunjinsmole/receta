@@ -1,0 +1,50 @@
+body {background-image: url(img/na.jpg);}
+        #wrapper {background-color: rgb(255, 231, 187);
+                  width: 70%;
+                 /* height: 100vh; fijamos el alto cuando no se ve nada al prncipio*/
+                  margin: 0 auto;
+                  padding: 5%;
+                  border: rgb(226, 165, 98) outset 5px;
+                  box-shadow: 10px 20px 30px rgb(78, 67, 48);}
+
+        #wrapper h1 {font-family: 'Lobster', cursive;
+                     font-size: 250%;
+                     text-align: center;
+                     color: salmon;
+                     text-shadow: 1px 1px black;}
+
+        #wrapper h2 {font-family: 'Oleo Script', cursive;
+                     font-size: 200%;
+                     color:rgb(255, 140, 128);
+                     text-shadow: 1px 1px black;}
+
+        #wrapper p {font-family:'Roboto Slab', serif; 
+                    font-size: 120%;}
+
+        #wrapper li {font-family:'Roboto Slab', serif; 
+                      font-size: 120%;}
+
+        #wrapper dt {background-color: rgba(255, 169, 159, 0.781);
+                     display:inline-block;
+                     padding: 5px;
+                     border-radius: 5px;}
+
+        #wrapper dl {font-family:'Roboto Slab', serif; 
+                    font-size: 120%;}
+
+        .mitad {width: 50%;
+                float: left;}
+
+        .mitad img {width: 60%;
+                    padding-left: 20%;}
+
+        .finfloat {clear: both;}
+
+        @media screen and (max-width:800px) {
+            .mitad {width:90%;
+                    padding: 5%}}
+
+        #wrapper h1 span {font-size: 50%;}
+        #wrapper #pep {font-family: 'Roboto Slab', serif;
+                       color: black;}
+        
